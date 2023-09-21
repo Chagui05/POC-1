@@ -205,7 +205,7 @@ int main() {
                             cout << "Opción no válida. Por favor, seleccione una opción válida (1-10)." << endl;
                             break;
                     }
-                } while (opcionArmar != 10); // Salir del menú "Armar" al seleccionar la opción 8
+                } while (opcionArmar != 10); // Salir del menú "Armar" al seleccionar la opción 10
                 break;
             case 3:
                 cout << "Saliendo del programa..." << endl;
