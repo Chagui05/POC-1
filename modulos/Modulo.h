@@ -12,8 +12,10 @@ class Modulo{
 
     Modulo(int pPiezasLeft){
         piezasUsed = 0;
-        piezasLeft =pPiezasLeft;
+        piezasLeft = pPiezasLeft;
         }
+
+    setPiez
 };
     
 
