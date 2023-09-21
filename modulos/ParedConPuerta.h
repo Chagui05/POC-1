@@ -4,7 +4,7 @@
 class ParedConPuerta: public Puerta{
 public :
     ParedConPuerta(int pPiezasLeft) : Pared(pPiezasLeft) {
-        Puerta puerta = new Puerta(1,1, true)
+        Puerta puerta = Puerta()
 
         piezasNeeded.push_back(puerta);
     };

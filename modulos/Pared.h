@@ -1,10 +1,12 @@
 #ifndef _PARED_
 #define _PARED_ 1
 
+#include "Modulo.h"
+
 class Pared: public Modulo{
 public :
     Pared(int pPiezasLeft) : Modulo(pPiezasLeft) {
-        Ladrillo ladrillo = new Ladrillo(2,4, true)
+        Ladrillo ladrillo = Ladrillo()
 
         piezasNeeded.push_back(ladrillo);
     };
