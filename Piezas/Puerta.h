@@ -2,6 +2,6 @@
 
 class Puerta: public Pieza{
 public :
-    Puerta() : Pieza(1,1, true) {
+    Puerta() : Pieza(2,4, true) {
     };
 };
