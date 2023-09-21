@@ -1,7 +1,7 @@
 #include "Pieza.h";
 
-class Piso: public Pieza{
+class Ceramica: public Pieza{
 public :
-    Piso() : Pieza(2,2, false) {
+    Ceramica() : Pieza(2,2, false) {
     };
 };
