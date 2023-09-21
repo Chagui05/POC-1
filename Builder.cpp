@@ -193,6 +193,7 @@ int main() {
                                 }
                                 else{
                                     armar(m1,m2,m3,m4)
+                                    mCount=0
                                 }
                             }
                             break;
