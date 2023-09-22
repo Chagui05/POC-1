@@ -4,8 +4,10 @@
 class ParedConPuertaP: public PuertaP{
 public :
     ParedConPuertaP(int pPiezasLeft) : Pared(pPiezasLeft) {
-        PuertaP puertaP = new PuertaP(1,1, true)
+        PuertaP puertaP = new PuertaP()
+        Ladrillo ladrillo = Ladrillo()
 
+        piezasNeeded.push_back(ladrillo);
         piezasNeeded.push_back(puertaP);
     };
 };

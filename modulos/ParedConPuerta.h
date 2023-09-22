@@ -3,9 +3,11 @@
 
 class ParedConPuerta: public Puerta{
 public :
-    ParedConPuerta(int pPiezasLeft) : Pared(pPiezasLeft) {
+    ParedConPuerta()  {
         Puerta puerta = Puerta()
+        Ladrillo ladrillo = Ladrillo()
 
+        piezasNeeded.push_back(ladrillo);
         piezasNeeded.push_back(puerta);
     };
 };

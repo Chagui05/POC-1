@@ -5,7 +5,7 @@
 
 class Pared: public Modulo{
 public :
-    Pared(int pPiezasLeft) : Modulo(pPiezasLeft) {
+    Pared() {
         Ladrillo ladrillo = Ladrillo()
 
         piezasNeeded.push_back(ladrillo);

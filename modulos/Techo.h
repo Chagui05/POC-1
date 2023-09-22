@@ -3,7 +3,7 @@
 
 class Techo: public Modulo{
 public :
-    Techo(int pPiezasLeft) : Modulo(pPiezasLeft) {
+    Techo(){
         CieloRazo cieloRaso = new CieloRaso(2,4, true)
         piezasNeeded.push_back(cieloRazo);
         

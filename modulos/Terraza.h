@@ -3,7 +3,7 @@
 
 class Terraza: public Modulo{
 public :
-    Terraza(int pPiezasLeft) : Modulo(pPiezasLeft) {
+    Terraza(){
         Ladrillo ladrillo = new Ladrillo(2,4, true)
         Ceramica ceramica = new Ceramica(2,2, false)
         Puerta puerta = new Puerta(1,1, true)

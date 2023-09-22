@@ -5,9 +5,9 @@
 
 using namespace std;
 
-List <Modulo> pila = new List;
+List <Modulo> pila = new Stack();
 
-void armar(m1,m2,m3,m4){
+void armar(Modulo m1,Modulo m2,Modulo m3,Modulo m4){
     pila.push(m1)
     pila.push(m2)
     pila.push(m3)
@@ -30,7 +30,7 @@ int main() {
             case 1:
                 cout << "Mostrando la Pila..." << endl;
                 int i = 0
-                while (i< pila.getSize){
+                while (i< pila.getSize()){
                     cout << pila.find(i) << endl;
                 }
                 break;
